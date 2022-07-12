@@ -9,7 +9,7 @@
             "value": "olehadmin"
         },
         "adminPassword": {
-            "value": "adminpassw1$"
+            "value": "******"
         }
     }
 }
