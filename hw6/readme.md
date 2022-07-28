@@ -6,7 +6,7 @@ https://github.com/ozheleztsov/oz-azure-course/blob/main/hw6/sql-deploy-terrafor
 
 Screenshot of result resources after applying this script. There are sql server and sql database in it
 <br/ >
-https://github.com/ozheleztsov/oz-azure-course/blob/main/hw6/sql-deploy-terraform/screen.PNG
+![sql server](https://github.com/ozheleztsov/oz-azure-course/blob/main/hw6/sql-deploy-terraform/screen.PNG)
 
 ### 2. Creating azure table using arm resource
 <br />
@@ -16,4 +16,4 @@ https://github.com/ozheleztsov/oz-azure-course/blob/main/hw6/azure-table-bicep/a
 
 Screenshot of created table here
 <br />
-https://github.com/ozheleztsov/oz-azure-course/blob/main/hw6/azure-table-bicep/deployment-table-screen.PNG
+![azure table](https://github.com/ozheleztsov/oz-azure-course/blob/main/hw6/azure-table-bicep/deployment-table-screen.PNG)
