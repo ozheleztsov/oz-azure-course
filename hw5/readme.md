@@ -77,6 +77,6 @@ Screenshot of deployed resources
 https://github.com/ozheleztsov/oz-azure-course/blob/main/hw4/deployed-screen.png
 
 Screenshot that verifies that mongo db server is installed and run
-https://github.com/ozheleztsov/oz-azure-course/blob/main/hw4/check-mongo.png
+![](https://github.com/ozheleztsov/oz-azure-course/blob/main/hw4/check-mongo.png)
 
 
