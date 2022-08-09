@@ -7,7 +7,7 @@ https://github.com/ozheleztsov/oz-azure-course/blob/main/hw8/appgateway/template
 
 <br />
 
-It defines 2 virtual machines and availability set before them
+It defines 2 virtual machines and availability set on from of them
 <br />
 I defined virtual network with 2 subnets - first for virtual machines (backend subnet) and second for application gateway (AGSubnet)
 <br />
@@ -15,8 +15,10 @@ Visualization of resources in Azure Portal looks like
 <br />
 ![appgateway](https://github.com/ozheleztsov/oz-azure-course/blob/main/hw8/appgateway/resource-visualizer.png)
 
-Also template defines extensions resources for virtual machines that install IIS-server on every machine.
-After deployment I had two virtual machines with IIS installed + Application gateway on front side
+Also template defines extension resources for virtual machines that install IIS-server on every machine.
+After deployment I got two virtual machines with IIS installed + Application gateway on front side
+<br />
+
 Screenshot with requests to gateway's public ip address demonstrates that requests come to different virtual machine every time
 <br />
 ![requests](https://github.com/ozheleztsov/oz-azure-course/blob/main/hw8/appgateway/requests.png)
@@ -24,7 +26,7 @@ Screenshot with requests to gateway's public ip address demonstrates that reques
 ### 2. 3 peered virtual networks
 <br />
 
-In the next bicep template I defined 3 virtual networks vnet1, vnet2, vnet3. Each of them has address space 3 for 256 ip addresses maximum.
+In the next bicep template I defined 3 virtual networks vnet1, vnet2, vnet3. Each of them has address space  for 256 ip addresses maximum.
 <br />
 I defined subnets with CIDR block close to task requirements. It is not always possible to stick to exact values because Azure reservers 5 addresses, but I tried to define subnets as close to requiremens as possible
 
