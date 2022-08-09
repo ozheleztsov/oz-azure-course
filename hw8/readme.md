@@ -39,11 +39,12 @@ https://github.com/ozheleztsov/oz-azure-course/blob/main/hw8/virtual-networks/te
 <br />
 Screenshot of subnets for vnet1 as example
 <br />
-![vnet1](https://github.com/ozheleztsov/oz-azure-course/blob/main/hw8/virtual-networks/vnet1.png)
+
+![vnet1](https://github.com/ozheleztsov/oz-azure-course/blob/main/hw8/virtual-networks/vnet1.png?raw=true)
 <br />
 Screenshot of peerings that were created in vnet1
 <br />
-![peering](https://github.com/ozheleztsov/oz-azure-course/blob/main/hw8/virtual-networks/peering.png)
+![peering](https://github.com/ozheleztsov/oz-azure-course/blob/main/hw8/virtual-networks/peering.png?raw=true)
 
 Both templates can be deployed with commands
 <br />
