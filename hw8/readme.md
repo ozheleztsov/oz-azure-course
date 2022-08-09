@@ -7,7 +7,7 @@ https://github.com/ozheleztsov/oz-azure-course/blob/main/hw8/appgateway/template
 
 <br />
 
-It defines 2 virtual machines and availability set on from of them
+It defines 2 virtual machines and availability set on front
 <br />
 I defined virtual network with 2 subnets - first for virtual machines (backend subnet) and second for application gateway (AGSubnet)
 <br />
