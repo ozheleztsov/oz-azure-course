@@ -119,7 +119,7 @@ Result
 webapp
 ```
 
-Verify what tags has webapp image
+Verify what tags  webapp image has
 ```
 az acr repository show-tags --name ozhw9registry --repository webapp --output table
 ```
