@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: oz-hw9
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: oz-hw9
+  template:
+    metadata:
+      labels:
+        app: oz-hw9
+    spec:
+      nodeSelector:
+        "beta.kubernetes.io/os": linux
+      containers:
+      - name: webapp
+        image: ozhw9registry.azurecr.io/webapp:v1
+        ports:
+        - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: oz-hw9
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+  selector:
+    app: oz-hw9
