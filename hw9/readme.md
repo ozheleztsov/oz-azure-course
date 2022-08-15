@@ -410,21 +410,21 @@ Output:
 </div>
 ```
 
-Version 1 of my application in browser: <br/>
+### Version 1 of my application in browser: <br/>
 ![v1](https://github.com/ozheleztsov/oz-azure-course/blob/main/hw9/v1.png)
 
-Version 2 of my application in browser: <br/>
+### Version 2 of my application in browser: <br/>
 ![v2](https://github.com/ozheleztsov/oz-azure-course/blob/main/hw9/v2.png)
 
 
-Screen of resource group after completing the tasks <br />
+### Screen of resource group after completing the tasks <br />
 ![rg](https://github.com/ozheleztsov/oz-azure-course/blob/main/hw9/resource-group-view.png)
 
-Screen of Azure Registry with my image uploaded <br />
+### Screen of Azure Registry with my image uploaded <br />
 ![reg](https://github.com/ozheleztsov/oz-azure-course/blob/main/hw9/registry.png)
 
-Screen of running Container instance <br />
+### Screen of running Container instance <br />
 ![ci](https://github.com/ozheleztsov/oz-azure-course/blob/main/hw9/container-instance.png)
 
-Screen of AKS workfloads page <br />
+### Screen of AKS workfloads page <br />
 ![workloads](https://github.com/ozheleztsov/oz-azure-course/blob/main/hw9/cluster-workloads.png)
